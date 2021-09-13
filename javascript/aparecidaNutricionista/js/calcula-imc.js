@@ -15,17 +15,17 @@ for (let i = 0; i < pacientes.length; i++) {
     let imcTd = paciente.querySelector(".info-imc");
     // Validando Peso e Altura
 
-    let pesoEhValido = true;
-    let alturaEhValida = true;
+    let pesoEhValido = validaPeso(peso); //Aqui eu vou ter true ou false
+    let alturaEhValida = validaAltura(altura);
 
-    if (peso <= 0 || peso >= 300) {
+    if (!pesoEhValido) {  //Só entra no if se o peso for falso, isso é invertido com o sinal de (!)
         pesoEhValido = false;
         imcTd.textContent = "Peso inválido";
         paciente.classList.add("paciente-invalido"); // Aqui mudo a cor conforme  CSS está configurado
 
     }
 
-    if (altura <= 0 || altura >= 3.00) {
+    if (!alturaEhValida) {   //Só entra no if se o altura for falso, isso é invertido com o sinal de (!)
         alturaEhValida = false;
         imcTd.textContent = "Altura inválido";
         paciente.classList.add("paciente-invalido");
@@ -36,6 +36,27 @@ for (let i = 0; i < pacientes.length; i++) {
         imcTd.textContent = imc;
     }
 }
+
+
+// início dos Validadores
+function validaPeso(peso){  // Aqui está validando peso
+    if (peso >= 0 && peso < 500){
+        return true;
+    }else{
+        return false;
+    }
+}
+
+function validaAltura(altura){  // Aqui está validando peso
+    if (altura >= 0 && altura < 3.0){
+        return true;
+    }else{
+        return false;
+    }
+}
+// Fim dos Validadores
+
+
 
 // uso essa função para calcular o imc em outro arquivo
 function calculoImc(peso, altura){
