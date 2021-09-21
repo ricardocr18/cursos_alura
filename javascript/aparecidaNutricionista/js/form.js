@@ -19,15 +19,22 @@ botaoAdicionar.addEventListener("click", function (event) {
         return;
     }
 
-    // adicionando o paciente na tabela
-    var tabela = document.querySelector('#tabela-pacientes');
-    tabela.appendChild(pacienteTr);
+    adicionarPacienteNaTabela(paciente);
 
     form.reset(); // Aqui limpa o Form após o cadastros dos dados
     var mensagensErro = document.querySelector('#mensagens-erro');
     mensagensErro.innerHTML = "";
 
 });
+
+//Inclundo o paciente da API no (buscar-paciente) API no Form
+function adicionarPacienteNaTabela(paciente) {
+    var pacienteTr = montaTr(paciente);
+    var tabela = document.querySelector("#tabela-pacientes");
+    tabela.appendChild(pacienteTr);
+}
+
+
 
 function exibeMensagensDeErro(erros){
     var ul =  document.querySelector('#mensagens-erro');
