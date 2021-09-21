@@ -24,7 +24,7 @@ botaoAdicionar.addEventListener("click", function (event) {
     tabela.appendChild(pacienteTr);
 
     form.reset(); // Aqui limpa o Form após o cadastros dos dados
-    var mensagensErro = document.querySelector('#mesnagens-erro');
+    var mensagensErro = document.querySelector('#mensagens-erro');
     mensagensErro.innerHTML = "";
 
 });
