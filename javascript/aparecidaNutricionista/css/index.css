@@ -147,3 +147,16 @@ button[disabled=disabled], button:disabled {
 	opacity: 0;
 	transition: 0.5s;
 }
+/*fim*/
+
+/* campo pesquisa do Forme */
+#filtrar-tabela{
+	width: 200px;
+	height: 35px;
+	margin-bottom: 10px;
+}
+
+.invisivel { 	 /*Aqui deixo a linha invisivel quando estou pesquisando*/
+	display:none;
+}
+/*fim*/
