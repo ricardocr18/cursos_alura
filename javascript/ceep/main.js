@@ -1,4 +1,5 @@
-(() => {
+import BotaoConclui from './componentes/concluiTarefa.js'
+import BotaoDeleta from './componentes/deletaTarefa.js'
 
 const novaTarefa = document.querySelector('[data-form-button]'); // aqui percorro todo o DOM até achar o Data do button
 
@@ -16,6 +17,7 @@ const criarTarefa = (evento) => {
 
     tarefa.innerHTML= conteudo;
     tarefa.appendChild(BotaoConclui()); //coloca um botão dentro de uma Li 
+    tarefa.appendChild(BotaoDeleta());
     lista.appendChild(tarefa);
         
     // aqui faço atualizar os dados digitados no Form na Li do html
@@ -29,22 +31,4 @@ const criarTarefa = (evento) => {
 
 novaTarefa.addEventListener('click', criarTarefa);
 
-const BotaoConclui = () => { // Criando um botão dentro da Li para tikar uma tarefa
-    const botaoConclui= document.createElement ('button')
 
-    botaoConclui.classList.add('check-button');
-    botaoConclui.innerText = 'concluir';
-    botaoConclui.addEventListener('click', concluirTarefa);
-        
-    return botaoConclui;
-
-}
-
-const concluirTarefa = (evento) => { // aqui efetuamos o lance de rabisco da tarefa concluida
-    const botaoConclui = evento.target;
-    const tarefaCompleta = botaoConclui.parentElement;
-    tarefaCompleta.classList.toggle('done');
-
-}
-
-}) ()
