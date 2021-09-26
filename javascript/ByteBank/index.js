@@ -20,5 +20,4 @@ conta2.agencia = 102;
 
 contaCorrenteRicardo.tranasferir(200, conta2);
 
-console.log(conta2);
-console.log(contaCorrenteRicardo);
+console.log(conta2.saldo);

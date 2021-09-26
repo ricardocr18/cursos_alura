@@ -1,9 +1,25 @@
+import {Cliente} from "./Cliente.js"; // para o instanceof funcionar
+
 export class ContaCorrente{
     agencia;
-    cliente;
+    _cliente;
+
+    set cliente(novoValor){  // REFERENCIANDO O CLIENTE cadastrado
+        if (novoValor instanceof Cliente){
+            this._cliente = novoValor;
+        }
+    }
+
+    get cliente(){
+        return this._cliente;
+    }
 
     // #saldo - https://github.com/tc39/proposal-class-fields#private-fields
     _saldo = 0;
+
+    get saldo(){
+        return this._saldo;
+    }
 
     sacar(valor){
         if(this._saldo >= valor ) {
