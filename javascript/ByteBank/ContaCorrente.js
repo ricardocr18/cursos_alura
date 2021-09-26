@@ -1,6 +1,7 @@
 import {Cliente} from "./Cliente.js"; // para o instanceof funcionar
 
 export class ContaCorrente{
+    static numeroDeContas = 0; //deixei essa variavel statica para receber o numero de contas que tenho no banco
     agencia;
     _cliente;
 
@@ -19,6 +20,12 @@ export class ContaCorrente{
 
     get saldo(){
         return this._saldo;
+    }
+
+    constructor(agencia, cliente){
+        this.agencia = agencia;
+        this.cliente = cliente;
+        ContaCorrente.numeroDeContas += 1; //aqui estu somando o nnumero de ContaCorrente que tenho no Banco
     }
 
     sacar(valor){
