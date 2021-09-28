@@ -3,13 +3,35 @@ export class Conta {
         this._saldo = saldoInicial;
         this._cliente = cliente;
         this._agencia = agencia;
+        
+        }
+
+        set cliente(novoValor){  // REFERENCIANDO O CLIENTE cadastrado
+            if (novoValor instanceof Cliente){
+                this._cliente = novoValor;
+            }
+        }
+    
+        get cliente(){  //proteção de dados
+            return this._cliente;
+        }    
+        
+        get saldo(){ //proteção de dados
+            return this._saldo;
         }
     
         sacar(valor){
-            if(this._saldo >= valor ) {
-                this._saldo -= valor
-                return valor;
+            let taxa = 1;
+            return this._sacar(valor, taxa);
+        }
+
+        _sacar(valor, taxa){
+            const valorSacado = taxa * valor;
+            if(this._saldo >= valorSacado ) {
+                this._saldo -= valorSacado
+                return valorSacado;
             }
+            return 0;
         }
     
         depositar(valor){
