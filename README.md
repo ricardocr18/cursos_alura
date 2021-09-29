@@ -17,4 +17,4 @@ Repositorio destinado aos cursos, trilhas e projetos realizados na plataforma de
 
 - Pasta Lógica de Programação - <img align="center" alt="ricardo-programacao" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/atom/atom-original.svg" />
 
-[ ] - ***alvoVermelho*** - Jogo com objetivo que o usuário clique no alvo antes que este desapareça. Ao clicar no centro do alvo, surge um pop up com a mensagem "acertou!". Clicando em qualquer outro lugar da tela resulta em erro. É um jogo simples, no qual utilizaremos o raciocínio lógico e alguns conceitos de elaboração de jogos
+[x] - ***alvoVermelho*** - Projeto Concluído, jogo com objetivo que o usuário clique no alvo antes que este desapareça. Ao clicar no centro do alvo, surge um pop up com a mensagem "acertou!". Clicando em qualquer outro lugar da tela resulta em erro. É um jogo simples, no qual utilizaremos o raciocínio lógico e alguns conceitos de elaboração de jogos. Utilizamos HTML e JavaScript.
