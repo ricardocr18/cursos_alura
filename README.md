@@ -12,4 +12,9 @@ Repositorio destinado aos cursos, trilhas e projetos realizados na plataforma de
 
 [x] - ***Projeto ByteBank*** - Orientação a Objetos, conforme proposta do exercício. Realizamos a criação de um sistema de conta-corrente e cadastro de clientes para o contratante Bytebank, de modo que seja possível manipular o saldo desses usuários e realizar operações bancárias. Utilizamos HTML, CSS e JavaScript
 
-[  ] - ***Projeto ByteBank_parteII*** - Vamos continuar nosso projeto para o ByteBank. Faremos o nosso sistema de contas funcionar melhor, Temos uma conta-corrente, uma conta poupança, uma conta salário e assim por diante. Nós vamos melhorar o nosso sistema de contas e deixá-lo fácil para trabalhar. Para se no futuro o ByteBank quiser outros tipos de contas, como uma conta empresarial, uma conta CNPJ ou uma conta conjunta. Também teremos um sistema de funcionários, então temos um funcionário diretor, um funcionário gerente, todo funcionário vai ter nome, salário e CPF, e eles terão uma bonificação.
+[ ] - ***Projeto ByteBank_parteII*** - Vamos continuar nosso projeto para o ByteBank. Faremos o nosso sistema de contas funcionar melhor, Temos uma conta-corrente, uma conta poupança, uma conta salário e assim por diante. Nós vamos melhorar o nosso sistema de contas e deixá-lo fácil para trabalhar. Para se no futuro o ByteBank quiser outros tipos de contas, como uma conta empresarial, uma conta CNPJ ou uma conta conjunta. Também teremos um sistema de funcionários, então temos um funcionário diretor, um funcionário gerente, todo funcionário vai ter nome, salário e CPF, e eles terão uma bonificação.
+
+
+- Pasta Lógica de Programação - <img align="center" alt="ricardo-programacao" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/atom/atom-original.svg" />
+
+[ ] - ***alvoVermelho*** - Jogo com objetivo que o usuário clique no alvo antes que este desapareça. Ao clicar no centro do alvo, surge um pop up com a mensagem "acertou!". Clicando em qualquer outro lugar da tela resulta em erro. É um jogo simples, no qual utilizaremos o raciocínio lógico e alguns conceitos de elaboração de jogos
