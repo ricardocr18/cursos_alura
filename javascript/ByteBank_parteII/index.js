@@ -1,18 +1,18 @@
 import {Cliente} from './Cliente.js';
-import { Conta } from './conta.js';
-import { ContaCorrente } from './ContaCorrente.js';
-import { ContaPoupanca } from './ContaPoupanca.js';
-import { ContaSalario } from './ContaSalario.js';
+import { Gerente } from './Funcionario/Gerente.js';
+import { Diretor } from './Funcionario/Diretor.js';
+import { SistemaAutenticacao } from './SistemaAutenticacao.js';
 
-const cliente1 = new Cliente('Ricardo', 1717171717); // aqui estou usando a função constructor do arquivo Cliente.js
+const diretor = new Diretor('Fernanda', 10000, 1234567800);
+diretor.cadastrarSenha('123456');
 
-const contaCorrenteRicardo = new ContaCorrente(cliente1, 171); //invocada no cosntructor do arquivo ContaCorrente.js
-const contaPoupanca = new ContaPoupanca(50, cliente1, 171);
-const contaSalario = new ContaSalario(cliente1);
+const gerente = new Gerente('Bruno', 5000, 1234567800);
+gerente.cadastrarSenha('123');
 
-contaSalario.depositar(100);
-contaSalario.sacar(10);
+const cliente = new Cliente('Lais', 7473615142, 'qwer')
 
-console.log(contaSalario);
+const gerenteEstaLogado = SistemaAutenticacao.login(gerente, '123');
+const diretorEstaLogado = SistemaAutenticacao.login(diretor, '123456');
+const clienteEstaLogado = SistemaAutenticacao.login(cliente, 'qwer');
 
-
+console.log(gerenteEstaLogado, diretorEstaLogado, clienteEstaLogado);
