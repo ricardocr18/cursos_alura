@@ -9,6 +9,8 @@ export class Cliente {
         this._senha = senha;
     }
 
-   
+   autenticar(){
+       return true;
+   }
 }
 
