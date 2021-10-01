@@ -14,6 +14,15 @@ let yRaquete = 150;
 let raqueteComprimento = 10;
 let raqueteAltura = 99;
 
+//variáveeis do oponente
+let xRaqueteOponente =585;
+let yRaqueteOponente = 150;
+let velocidadeYOponente;
+
+//placar do jogo
+let meusPontos = 0;
+let pontosDoOponente = 0;
+
 function setup() { //Criação da borda
   createCanvas(600, 400);
 }
@@ -23,9 +32,13 @@ function draw() {
   mostraBolinha();
   movimentaBolinha();
   verificaColisaoBorda();
-  mostraRaquete(); 
+  mostraRaquete(xRaquete, yRaquete); 
   movimentaMinhaRaquete();
   verificaColisaoRaquete();
+  mostraRaquete(xRaqueteOponente, yRaqueteOponente); 
+  movimentaRaqueteOponente();
+  incluiPlacar();
+  marcaPonto();
 }  
     
 function mostraBolinha(){
@@ -47,8 +60,8 @@ function verificaColisaoBorda(){
   }    
 }
 
-function mostraRaquete(){
-  rect(xRaquete, yRaquete,raqueteComprimento,raqueteAltura);
+function mostraRaquete(x, y){
+  rect(x, y,raqueteComprimento,raqueteAltura);
 }
 
 // para que as setas se movimente tem que clicar no quadro do jogo.
@@ -61,8 +74,29 @@ function movimentaMinhaRaquete(){
   }  
 }
 
-function verificaColisaoRaquete(){
+function verificaColisaoRaquete(x,y){
   if (xBolinha - raio < xRaquete + raqueteComprimento && yBolinha - raio < yRaquete + raqueteAltura && yBolinha + raio > yRaquete){
     velocidadeXBolinha *= -1;
   }
-}  
+} 
+
+
+function movimentaRaqueteOponente(){
+  velocidadeYOponente = yBolinha - yRaqueteOponente - raqueteComprimento / 2 - 30;
+  yRaqueteOponente += velocidadeYOponente
+}
+
+function incluiPlacar(){
+  fill(255); //muda a cor
+  text(meusPontos, 278, 26);
+  text(pontosDoOponente,321, 26)
+}
+
+function marcaPonto(){
+  if (xBolinha > 590){
+    meusPontos += 1;
+  }
+  if (xBolinha < 10){
+    pontosDoOponente += 1;
+  }
+}
