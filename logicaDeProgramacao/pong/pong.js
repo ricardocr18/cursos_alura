@@ -8,6 +8,12 @@ let raio = diametro / 2;
 let velocidadeXBolinha = 5;
 let velocidadeYBolinha = 5;
 
+//variáveis da raquete
+let xRaquete = 5;
+let yRaquete = 150;
+let raqueteComprimento = 10;
+let raqueteAltura = 99;
+
 function setup() { //Criação da borda
   createCanvas(600, 400);
 }
@@ -17,8 +23,11 @@ function draw() {
   mostraBolinha();
   movimentaBolinha();
   verificaColisaoBorda();
-}
-        
+  mostraRaquete(); 
+  movimentaMinhaRaquete();
+  verificaColisaoRaquete();
+}  
+    
 function mostraBolinha(){
   circle(xBolinha,yBolinha, diametro);
 }
@@ -37,3 +46,23 @@ function verificaColisaoBorda(){
         velocidadeYBolinha *= -1;
   }    
 }
+
+function mostraRaquete(){
+  rect(xRaquete, yRaquete,raqueteComprimento,raqueteAltura);
+}
+
+// para que as setas se movimente tem que clicar no quadro do jogo.
+function movimentaMinhaRaquete(){
+  if (keyIsDown(UP_ARROW)){
+    yRaquete -= 10;
+  }
+  if (keyIsDown(DOWN_ARROW)){
+    yRaquete += 10;
+  }  
+}
+
+function verificaColisaoRaquete(){
+  if (xBolinha - raio < xRaquete + raqueteComprimento && yBolinha - raio < yRaquete + raqueteAltura && yBolinha + raio > yRaquete){
+    velocidadeXBolinha *= -1;
+  }
+}  
