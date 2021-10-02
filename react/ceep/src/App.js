@@ -1,9 +1,17 @@
-//import React from 'react';
+import React, {Component} from 'react';
+import ListaDeNotas from "./components/ListasDeNotas";
+import FormularioCadastro from "./components/FormularioCadastro";
 
-function App() {
-  return (
-    <h1>Olá Fluzão</h1>
-  );
+class App extends Component {
+
+  render(){
+    return (
+      <section>
+        <FormularioCadastro/>
+        <ListaDeNotas/>
+      </section>  
+    );
+  }  
 }
 
 export default App;
