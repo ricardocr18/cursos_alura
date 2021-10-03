@@ -4,7 +4,7 @@ Repositorio destinado aos cursos, trilhas e projetos realizados na plataforma de
 
 # Seguem descrições das pastas e atividades realizadas com suas funcionalidades:
 
-# Pasta JavaScript <img align="center" alt="ricardo-Js" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">
+### Pasta JavaScript <img align="center" alt="ricardo-Js" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">
 
 [x] - ***AparecidaNutricionista*** - Projeto Concluído. Programa que armazena os pacientes da Nutricionista, calcula o IMC, além de incluir, deletar e alterar dados da tabela. Também busca dados de uma API externa para povoa a planiha de clientes da Nutricionista. Utilizamos HTML, CSS e JavaScript
 
