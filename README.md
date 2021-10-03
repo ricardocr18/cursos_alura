@@ -6,7 +6,7 @@ Repositorio destinado aos cursos, trilhas e projetos realizados na plataforma de
 
 ###  - Pasta JavaScript <img align="center" alt="ricardo-Js" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">
 
-[x] - ***AparecidaNutricionista*** - Projeto Concluído. Programa que armazena os pacientes da Nutricionista, calcula o IMC, além de incluir, deletar e alterar dados da tabela. Também busca dados de uma API externa para povoa a planiha de clientes da Nutricionista. Utilizamos HTML, CSS e JavaScript
+- [x] - ***AparecidaNutricionista*** - Projeto Concluído. Programa que armazena os pacientes da Nutricionista, calcula o IMC, além de incluir, deletar e alterar dados da tabela. Também busca dados de uma API externa para povoa a planiha de clientes da Nutricionista. Utilizamos HTML, CSS e JavaScript
 
 [x] - ***CEEP*** - Projeto Concluído. Manipular o DOM com JavaScript, foi criado um que cadastra listas de tarefas e marca quando for realizada, além de deletar. Usamos IIFE, import/export e CORS. Utilizamos HTML, CSS e JavaScript
 
@@ -19,4 +19,4 @@ Repositorio destinado aos cursos, trilhas e projetos realizados na plataforma de
 
 [x] - ***alvoVermelho*** - Projeto Concluído, jogo com objetivo que o usuário clique no alvo antes que este desapareça. Ao clicar no centro do alvo, surge um pop up com a mensagem "acertou!". Clicando em qualquer outro lugar da tela resulta em erro. É um jogo simples, no qual utilizaremos o raciocínio lógico e alguns conceitos de elaboração de jogos. Utilizamos HTML e JavaScript.
 
-[x] - ***pong*** - Projeto Concluído, desenvolvemos o jogo do Pong, que é um jogo eletrônico de esporte que simula uma partida de tênis de mesa. Utilizamos o Javascript dentro do serviço Web chamado p5.js (https://editor.p5js.org/) que exige cadastro de uma conta, o arquivo dentro da pasta do proejto pong.js está pronto para rodar no browser do sistema p5.js. Bom jogo :) 
+[x] - ***pong*** - Projeto Concluído, desenvolvemos o jogo do Pong, que é um jogo eletrônico de esporte que simula uma partida de tênis de mesa. Utilizamos o Javascript dentro do serviço Web chamado [p5.js](https://editor.p5js.org/) que exige cadastro de uma conta, o arquivo dentro da pasta do proejto pong.js está pronto para rodar no browser do sistema p5.js. Bom jogo :) 
