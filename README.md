@@ -18,3 +18,5 @@ Repositorio destinado aos cursos, trilhas e projetos realizados na plataforma de
 - Pasta Lógica de Programação - <img align="center" alt="ricardo-programacao" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/atom/atom-original.svg" />
 
 [x] - ***alvoVermelho*** - Projeto Concluído, jogo com objetivo que o usuário clique no alvo antes que este desapareça. Ao clicar no centro do alvo, surge um pop up com a mensagem "acertou!". Clicando em qualquer outro lugar da tela resulta em erro. É um jogo simples, no qual utilizaremos o raciocínio lógico e alguns conceitos de elaboração de jogos. Utilizamos HTML e JavaScript.
+
+[x] - ***pong*** - Projeto Concluído, desenvolvemos o jogo do Pong, que é um jogo eletrônico de esporte que simula uma partida de tênis de mesa. Utilizamos o Javascript dentro do serviço Web chamado p5.js (https://editor.p5js.org/) que exige cadastro de uma conta, o arquivo dentro da pasta do proejto pong.js está pronto para rodar no browser do sistema p5.js. Bom jogo :) 
