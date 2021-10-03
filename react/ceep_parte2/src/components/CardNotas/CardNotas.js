@@ -15,6 +15,7 @@ class CardNotas extends Component {
         <header className="card-nota_cabecalho">
           <h3 className="card-nota_titulo">{this.props.titulo}</h3>
           <DeleteSVG onClick={this.apagar.bind(this)} /* aqui é o start de todo o processo de deletar no icone da lixeira no card *//> 
+          <h4>{this.props.categoria}</h4>
         </header>
         <p className="card-nota_texto">{this.props.texto}</p>
         
