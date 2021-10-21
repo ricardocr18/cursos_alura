@@ -2,11 +2,13 @@
 
 Repositorio destinado aos cursos, trilhas e projetos realizados na plataforma de ensino Alura - https://www.alura.com.br/
 
+### - Certificados de Conclusão Conquistados na plataforma da Alura - https://cursos.alura.com.br/user/ricardocribeiro/fullCertificate/83aeabad14f3999b8bae37a8d353d061
+
 # Seguem descrições das pastas e atividades realizadas com suas funcionalidades:
 
 ###  - Pasta JavaScript <img align="center" alt="pasta-JavaScript" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">
 
-[ ] - ***Fundamentos do JavaScript com objetos*** - Realizando o Curso.
+[x] - ***Fundamentos_objetos*** - Curso Concluído de Fundamentos do JavaScript Objetos. Pastas possui códigos desenvolvidos para o aprendizado para estrutura de dados sua importante em programação. Conhecer a estrutura de um objeto literal, percorrer, alterar e manipular objetos com métodos do JavaScript e como trabalhar com os tipos de dados em um objeto, como gerar objetos a partir de funções construtoras, entender o conceito de protótipo no JavaScript e uma introdução ao tema de Programação Orientada a Objetos.
 
 [x] - ***AparecidaNutricionista*** - Projeto Concluído. Programa que armazena os pacientes da Nutricionista, calcula o IMC, além de incluir, deletar e alterar dados da tabela. Também busca dados de uma API externa para povoa a planiha de clientes da Nutricionista. Utilizamos HTML, CSS e JavaScript
 
