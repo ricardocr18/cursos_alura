@@ -2,7 +2,7 @@
 
 Repositorio destinado aos cursos, trilhas e projetos realizados na plataforma de ensino Alura - https://www.alura.com.br/
 
-### - Certificados de Conclusão Conquistados na plataforma da Alura - https://cursos.alura.com.br/user/ricardocribeiro/fullCertificate/83aeabad14f3999b8bae37a8d353d061
+Visualização dos Certificados de Conclusão Conquistados na plataforma da Alura - https://cursos.alura.com.br/user/ricardocribeiro/fullCertificate/83aeabad14f3999b8bae37a8d353d061
 
 # Seguem descrições das pastas e atividades realizadas com suas funcionalidades:
 
