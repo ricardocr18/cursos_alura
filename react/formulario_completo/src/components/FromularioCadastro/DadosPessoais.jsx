@@ -27,7 +27,7 @@ function DadosPessoais({ aoEnviar, validarCPF }) {
                 label="Nome"
                 variant='outlined'
                 margin='normal'
-                fullWidth
+                fullWidth //Aqui é o comendo que completa a linha inteir
             />
 
             <TextField
