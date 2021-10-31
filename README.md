@@ -32,13 +32,15 @@ Visualização dos Certificados de Conclusão Conquistados na plataforma da Alur
 
 [x] - ***ceep_parte2*** - Projeto Concluído. Continuação do proejto (ceep_parte1) onde reforçamos e entendemos com a bibliotecas funcionam, criaos componentes dentro do React e usa-lo para otimizar o site.
 
-[x] - ***formcadastro***  - Projeto Concluido.  Criar um formulário de cadastro, onde a gente consegue colocar o nosso nome, nosso sobrenome, e aí, o nosso CPF. E aí, se eu colocar um CPF que for válido, beleza, ele vai me deixar passar. Aula - React: Function Components, uma abordagem moderna.
+[x] - ***formcadastro***  - Projeto Concluido (Aula: Function Components, uma abordagem moderna).  Criar um formulário de cadastro, onde a gente consegue colocar o nosso nome, nosso sobrenome, e aí, o nosso CPF. E aí, se eu colocar um CPF que for válido, beleza, ele vai me deixar passar.
 
-[x] - ***formulario_completo***  - Projeto Concluido. Continuação e melhorias do projeto (formcadstro) Nesse curso vamos continuar trabalhando nosso formulário, só que dessa vez vamos deixar ele muito melhor, vamos deixar com várias partes. Vamos fazer o login, a parte pessoal, a parte de entrega e de finalização de acordo com os pedidos do nosso cliente, já que ele tinha um único formulário que tinha os dados pessoais. Aula - React: Hooks, Contextos e boas práticas.
+[x] - ***formulario_completo***  - Projeto Concluido (Aula: Hooks, Contextos e boas práticas). Continuação e melhorias do projeto (formcadstro) Nesse curso vamos continuar trabalhando nosso formulário, só que dessa vez vamos deixar ele muito melhor, vamos deixar com várias partes. Vamos fazer o login, a parte pessoal, a parte de entrega e de finalização de acordo com os pedidos do nosso cliente, já que ele tinha um único formulário que tinha os dados pessoais.
 
-[ ] - ***ByteBank***  - Projeto Em Construção
+[x] - ***petshop***  - Projeto Concluido (Aula - Router: Navegação em uma SPA). Aprendemos como funciona a navegação dentro de um SPA, ou uma Single Page Application, assim criamos o Doguito Blog e os pré-requisitos para ele, são os React Function Components, porque não vamos utilizar classe durante a construção desse projeto, e o React Hooks, porque vamos fazer busca para a API, então, utilizaremos o “useEffect” e trabalharemos com o estado, utilizando o “useState”, então já é bom você saber do que se trata esses dois routes.
 
-[ ] - ***petshop***  - Projeto Em Construção
+[ ] - ***ByteBank***  - Projeto em Construção. 
+
+
 
 
 
