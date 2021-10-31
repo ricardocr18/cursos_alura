@@ -38,7 +38,7 @@ Visualização dos Certificados de Conclusão Conquistados na plataforma da Alur
 
 [x] - ***petshop***  - Projeto Concluido (Aula - Router: Navegação em uma SPA). Aprendemos como funciona a navegação dentro de um SPA, ou uma Single Page Application, assim criamos o Doguito Blog e os pré-requisitos para ele, são os React Function Components, porque não vamos utilizar classe durante a construção desse projeto, e o React Hooks, porque vamos fazer busca para a API, então, utilizaremos o “useEffect” e trabalharemos com o estado, utilizando o “useState”, então já é bom você saber do que se trata esses dois routes.
 
-[ ] - ***ByteBank***  - Projeto em Construção. 
+[ ] - ***ByteBank***  - Projeto Concluido (Aula: Abstraindo seu CSS com Styled Components). Projeto sobre Styled Components, que é uma famosa biblioteca no mundo de React, passamos em conceitos chaves como uso de props, herança de estilos e Mídia Querys. Abordaremos, também, a componentização da nossa aplicação, que está utilizando um arquivo enorme de CSS. Sendo assim, ele tem muitas classes que podem gerar conflitos e retrabalhos.
 
 
 
