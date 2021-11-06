@@ -1,6 +1,12 @@
 class Tabelas {
     init(conexao){
-        console.log('Tabelas forma chamadas')
+        this. conexao = conexao
+    }
+
+    criarAtendimentos(){
+        this.conexao
     }
 }
+
+
 module.exports = new Tabelas;
